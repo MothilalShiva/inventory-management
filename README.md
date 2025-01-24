@@ -57,3 +57,35 @@ The **Inventory Management Dashboard** is a full-stack web application designed 
 ```bash
 git clone https://github.com/MothilalShiva/inventory-management.git
 cd inventory-management
+Install dependencies
+bash
+Copy
+Edit
+npm install
+Set up environment variables
+Create a .env file and add the following variables:
+
+makefile
+Copy
+Edit
+MONGODB_URI=your_mongo_db_connection_string
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+Start the development server
+bash
+Copy
+Edit
+npm run dev
+This will start the application on http://localhost:3000.
+
+Usage
+Once the application is running, you can access the following key features:
+
+Dashboard: View an overview of the inventory data with real-time updates.
+Product Management: Add, update, or delete product details.
+Sales Analytics: Analyze sales data and trends.
+User Management: Admins can manage user roles and permissions.
+Deployment
+The application is deployed on AWS with scalable infrastructure. You can view the live application (if deployed) or deploy it using services like AWS EC2 and AWS Amplify.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
